@@ -1,0 +1,25 @@
+QUESTION 1 : Difference between HTTP1.1 & HTTP2
+*HTTP 1.1 : HTTP/1.1 loads resources one after the other, 
+so if one resource cannot be loaded, it blocks all the other resources behind it.
+*There is head of line blocking that blocks all the 
+requests behind it until it doesn’t get its all resources.	
+*It uses requests resource Inlining for use getting multiple pages	
+*It compresses data by itself.	
+*HTTP 2 : It allows multiplexing so one TCP connection is required for multiple requests.
+*It uses PUSH frame by server that collects all multiple pages 
+*It uses HPACK for data compression.
+
+QUESTION 2 : objects and its internal representation in Javascript
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, 
+undefined and symbol) in the sense that while these primitive data-types all store a single value 
+each (depending on their types).
+
+
+
+
+
+
+
+
+
